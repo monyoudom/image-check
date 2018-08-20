@@ -103,6 +103,7 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# django
 *.egg-info
 *.pot
 *.py[co]
