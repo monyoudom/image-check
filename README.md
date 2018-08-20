@@ -1,17 +1,26 @@
-# image-check
-checking missing image from JSON.
+# IMAGE-CHECK
+# PURPOSE
+- Finding Missing Image.
 
-# Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+# Setup
 
+### Step 1: 
+- Download [This Sample Data](https://quadinc.box.com/s/7eggpin5piuwewu6xqs9qi3n36eryzfb).
+- extract and move it to `imagecheck directory`
 
-# Installing
+### Step 2:
+- Run mainCheck.py
+- Result Output will be create in `MissingJSON`
+
+#Django environment
+
+## Installing
 ```
 virtualenv image-check
 cd /image-check/
 pip3 install -r requirment.txt
 ```
-# Running the tests
+## Running the tests
 
 ```
 python3 manage.py run server
