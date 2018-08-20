@@ -6,13 +6,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 # Installing
-'''
+```
 virtualenv image-check
 cd /image-check/
 pip3 install -r requirment.txt
-'''
+```
 # Running the tests
 
-'''
+```
 python3 manage.py run server
-'''
+```
