@@ -104,8 +104,12 @@ venv.bak/
 .mypy_cache/
 
 # django
-*.egg-info
+*.log
 *.pot
+*.pyc
+local_settings.py
+.env
+*.egg-info
 *.py[co]
 .tox/
 __pycache__
